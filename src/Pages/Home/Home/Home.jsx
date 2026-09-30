@@ -5,6 +5,7 @@ import ClientLogoMarquee from './ClientLogoMarquee/ClientLogoMarquee'
 import HowItWork from './HowItWorkSction/HowItWork'
 import Features from './Features'
 import BeMerchant from './BeMerchant'
+import Faq from './Faq'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <ClientLogoMarquee/>
       <Features/>
       <BeMerchant/>
+      {/* <Faq/> */}
     </div>
   )
 }
