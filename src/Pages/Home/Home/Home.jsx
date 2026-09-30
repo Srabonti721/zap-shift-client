@@ -6,6 +6,7 @@ import HowItWork from './HowItWorkSction/HowItWork'
 import Features from './Features'
 import BeMerchant from './BeMerchant'
 import Faq from './Faq'
+import Reviews from './Reviews'
 
 const Home = () => {
   return (
@@ -16,7 +17,8 @@ const Home = () => {
       <ClientLogoMarquee/>
       <Features/>
       <BeMerchant/>
-      {/* <Faq/> */}
+      <Reviews/>
+      <Faq/>
     </div>
   )
 }
