@@ -59,7 +59,6 @@ const Features = () => {
     </div>
   ))}
 </div>
-
         {/* Section Bottom Dotted Border */}
         <div className="border-b-2 border-dashed border-gray-300 mt-10"></div>
 
