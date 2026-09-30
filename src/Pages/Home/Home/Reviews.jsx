@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import group from "../../../assets/Group 5.png"
 import "swiper/css";
-
 import reviewsData from "../../../data/reviewsData.json";
 
 const Reviews = () => {
@@ -55,7 +54,7 @@ const Reviews = () => {
                 </div>
 
                 {/* Description */}
-                <p className="text-gray-600 leading-7 mt-3 mb-7">
+                <p className="text-gray-600 leading-7 border-b-2 border-dashed border-gray-400 p-4 mt-3 mb-7">
                   {testimonial.description}
                 </p>
 

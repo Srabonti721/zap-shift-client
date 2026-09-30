@@ -1,7 +1,7 @@
 import merchant from "../../../assets/location-merchant.png";
 const BeMerchant = () => {
     return (
-        <div className="bg-[url('assets/be-a-merchant-bg.png')] bg-no-repeat  bg-[#03373D] p-5 lg:p-20 rounded-4xl mx-2">
+        <div data-aos="flip-up" className="bg-[url('assets/be-a-merchant-bg.png')] bg-no-repeat  bg-[#03373D] p-5 lg:p-20 rounded-4xl mx-2">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img
                     alt="Tailwind CSS hero component"
