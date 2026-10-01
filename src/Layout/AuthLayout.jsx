@@ -1,5 +1,5 @@
+import { Outlet } from "react-router";
 import authImg from "../assets/authImage.png";
-import Login from "../Pages/Authentication/Login/Login";
 import ProFastLogo from "../Pages/Shared/ProFastLogo/ProFastLogo";
 
 const AuthLayout = () => {
@@ -17,7 +17,7 @@ const AuthLayout = () => {
                     />
                 </div>
                 <div className="flex-1">
-                    <Login />
+                     <Outlet/>                 
                 </div>
             </div>
         </div>
