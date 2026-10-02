@@ -1,7 +1,10 @@
 import { NavLink } from "react-router";
 import ProFastLogo from "./ProFastLogo/ProFastLogo";
+import useAuth from "../../Hooks/useAuth";
 
 const Navbar = () => {
+    const {email} = useAuth();
+
     const navItem = (
         <>
             <li>
